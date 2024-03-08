@@ -10,14 +10,17 @@ def exceptionHandling():
             age = int(parts[1]) + 1
         except ValueError:
             print(f'{name} 0')
-            break
-        age = int(parts[1]) + 1
-        print(f'{name} {age}')
+        else:
+
+            age = int(parts[1]) + 1
+            print(f'{name} {age}')
 
         
         # Get next line
         parts = input().split()
         name = parts[0]
+        #"Huw 29","Jaspar 49","Melina Lynn 32","Quinta 13","Mina Ny 38","Hanna 28","-1"  
+        #"Huw 30","Jaspar 50","Melina 0","Quinta 14","Mina 0","Hanna 29"
 
 if __name__ == '__main__':
     exceptionHandling()

@@ -9,7 +9,7 @@ def courseGrade():
     stuff = open(bot).read().split()
     h = len(stuff)
     i = 0
-    j = open("report.txt", "w+")
+    j = open("./Problem 3/report.txt", "w+")
     total = 0
     num = 0
     # TODO: Compute student grades and exam averages, then output results to a text file here. 

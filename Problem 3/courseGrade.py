@@ -5,7 +5,7 @@ def courseGrade():
       
       
     # TODO: Read a file name from the user and read the tsv file here. 
-    bot = "./Problem 3/" + input()
+    bot =  input()
     stuff = open(bot).read().split()
     h = len(stuff)
     i = 0

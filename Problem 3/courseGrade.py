@@ -1,3 +1,4 @@
+#Name: Braden Stanfield  Lab: Fri 3
 def courseGrade():
     
     # TODO: Declare any necessary variables here. 

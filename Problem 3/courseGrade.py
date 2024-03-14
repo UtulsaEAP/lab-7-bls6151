@@ -35,7 +35,7 @@ def courseGrade():
         
         total = 0
         i += 5
-    stri += "Averages: midterm1: " + (str("%.2f"%(mid1/(h/5)))) + ", midterm2: " + (str("%.2f"%(mid2/(h/5)))) + ", final: " + (str("%.2f"%(fin/(h/5))))
+    stri += "\nAverages: midterm1: " + (str("%.2f"%(mid1/(h/5)))) + ", midterm2: " + (str("%.2f"%(mid2/(h/5)))) + ", final: " + (str("%.2f"%(fin/(h/5))))
     j.write(stri)
     j.close()
     return

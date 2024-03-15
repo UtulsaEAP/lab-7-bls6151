@@ -9,7 +9,7 @@ def courseGrade():
     stuff = open(bot).read().split()
     h = len(stuff)
     i = 0
-    j = open("./Problem 3/report1.txt", "w")
+    j = open("./Problem 3/rand.txt", "w")
     total = 0
     num = 0
     mid1 = 0

@@ -9,7 +9,7 @@ def courseGrade():
     stuff = open(bot).read().split()
     h = len(stuff)
     i = 0
-    j = open("./Problem 3/rand.txt", "w")
+    j = open("./Problem 3/report1.txt", "w")
     total = 0
     num = 0
     mid1 = 0
@@ -31,11 +31,11 @@ def courseGrade():
             grade = "C"
         elif total/3 >= 60:
             grade = "D"
-        stri += stuff[i] + "\t" + stuff[i + 1] + "\t" + stuff[i + 2] + "\t" +stuff[i+3] + "\t" + stuff[i+4] + "\t" + grade + "\n" 
+        stri += stuff[i] + "\t" + stuff[i + 1] + "\t" + stuff[i + 2] + "\t" +stuff[i+3] + "\t" + stuff[i+4] + "\t" + grade + "\n"
         
         total = 0
         i += 5
-    stri += "\nAverages: midterm1: " + (str("%.2f"%(mid1/(h/5)))) + ", midterm2: " + (str("%.2f"%(mid2/(h/5)))) + ", final: " + (str("%.2f"%(fin/(h/5))))
+    stri += "\nAverages: midterm1 " + (str("%.2f"%(mid1/(h/5)))) + ", midterm2 " + (str("%.2f"%(mid2/(h/5)))) + ", final " + (str("%.2f"%(fin/(h/5))))
     j.write(stri)
     j.close()
     return

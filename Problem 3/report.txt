@@ -5,3 +5,4 @@ Mayo   Tyrese  88      61      36      D
 Stern  Brenda  90      86      45      C
 
 Averages: midterm1 83.40, midterm2 76.60, final 61.60
+
